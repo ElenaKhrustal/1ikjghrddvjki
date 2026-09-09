@@ -975,11 +975,11 @@ $(document).on('keydown', function (ev) {
 &lt;&lt;set $temp_name to $temp_name.trim()&gt;&gt;
 &lt;&lt;if $temp_name is &quot;&quot;&gt;&gt;
 &lt;&lt;replace &quot;#toast-area&quot;&gt;&gt;
-&lt;div class=&quot;custom-toast&quot; style=&quot;color: #ffcccc !important;&quot;&gt;Имя не может быть пустым!&lt;/div&gt;
+&lt;&lt;audio &quot;appearance_of_stat&quot; play&gt;&gt;&lt;div class=&quot;custom-toast&quot; style=&quot;color: #ffcccc !important;&quot;&gt;Имя не может быть пустым!&lt;/div&gt;
 &lt;&lt;/replace&gt;&gt;
 &lt;&lt;elseif $temp_name.length lt 2&gt;&gt;
 &lt;&lt;replace &quot;#toast-area&quot;&gt;&gt;
-&lt;div class=&quot;custom-toast&quot; style=&quot;color: #ffcccc !important;&quot;&gt;Имя должно быть минимум из 2 букв.&lt;/div&gt;
+&lt;&lt;audio &quot;appearance_of_stat&quot; play&gt;&gt;&lt;div class=&quot;custom-toast&quot; style=&quot;color: #ffcccc !important;&quot;&gt;Имя должно быть минимум из 2 букв.&lt;/div&gt;
 &lt;&lt;/replace&gt;&gt;
 &lt;&lt;else&gt;&gt;
 &lt;span style=&quot;color: #ff4d4d; font-weight: bold; background: rgba(255,77,77,0.15); padding: 2px 4px; border-radius: 4px;&quot;&gt;&lt;&lt;set $name to $temp_name&gt;&gt;
